@@ -58,5 +58,5 @@ export class ProductListComponent {
             "starRating": 4.6,
             "imageUrl": "https://openclipart.org/image/300px/svg_to_png/120337/xbox-controller_01.png"
         }
-    ]
+    ];
 }
