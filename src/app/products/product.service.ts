@@ -3,7 +3,7 @@ import { IProduct } from './product';
 
 @Injectable()
 
-export class ProduceService {
+export class ProductService {
 
     getProducts(): IProduct [] {
         return [
