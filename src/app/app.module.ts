@@ -5,7 +5,6 @@ import { RouterModule } from "@angular/router";
 
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './home/welcome.component';
-import { ProductGuardService } from './products/product-guard.service';
 import { ProductModule } from './products/product.module';
 
 @NgModule({
@@ -23,7 +22,6 @@ import { ProductModule } from './products/product.module';
     ]),
     ProductModule
   ],
-  providers: [ProductGuardService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

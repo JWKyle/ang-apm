@@ -7,6 +7,7 @@ import { StarComponent } from '../shared/star.component';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { ProductGuardService } from './product-guard.service';
+import { ProductService } from './product.service';
 
 @NgModule({
   imports: [
@@ -26,6 +27,10 @@ import { ProductGuardService } from './product-guard.service';
     ProductDetailComponent,
     ConvertToSpacesPipe,
     StarComponent
+  ],
+  providers: [
+    ProductService,
+    ProductGuardService
   ]
 })
 export class ProductModule { }
