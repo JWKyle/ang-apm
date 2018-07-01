@@ -18,7 +18,6 @@ export class ProductService {
 
     getProducts(): Observable<IProduct[]> {
         return this._http.get<IProduct[]>(this._productURL)
-            // .do(data => console.log('All: ' + JSON.stringify(data)))
             .catch(this.handleError);
     }
 
