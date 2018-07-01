@@ -1,4 +1,10 @@
-# WIP APM
+# About This App
+
+This is a project built using PluralSight's Angular: Getting Started Course, Created and Taught by Deborah Kurata.  The course can be found here: https://app.pluralsight.com/library/courses/angular-2-getting-started-update/table-of-contents
+
+The App is currently functional, and will be used as a sandbox for further Development practice.  
+
+# APM
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.4.
 
